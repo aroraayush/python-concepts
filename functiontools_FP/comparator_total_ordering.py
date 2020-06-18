@@ -5,6 +5,7 @@ class Car:      # Comparator functions
     def __init__(self, model, mileage):
         self.model = model
         self.mileage = mileage
+        print("=== If any function is not overrided, it will throw error ===")
 
     def __lt__(self, car2):
         return self.mileage < car2.mileage
