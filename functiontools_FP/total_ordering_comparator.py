@@ -6,6 +6,7 @@
 
 from functools import total_ordering
 
+print("=== total_ordering makes code slow, and stack trace beomces complex ===")
 @total_ordering
 class Car:      # Comparator functions
     def __init__(self, model, mileage):
