@@ -19,3 +19,14 @@ remaining_args = ["@gmail",".com"]
 
 email_obj(*remaining_args)
 email_obj2(*remaining_args)
+
+def add(a,b):
+    print(a,b)
+    return a+b
+
+add_one_a = partial(add, b = 1)
+add_one_b = partial(add, 1)
+add_one_c = partial(add, a = 1)
+print('add_one_a(4): ', add_one_a(4))
+print('add_one_b(4): ', add_one_b(4))
+print('add_one_c(4): ', add_one_c(b = 4))
