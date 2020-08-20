@@ -115,3 +115,54 @@ for i in range(thickness+1):
 #Bottom Cone
 for i in range(thickness):
     print(((c*(thickness-i-1)).rjust(thickness)+c+(c*(thickness-i-1)).ljust(thickness)).rjust(thickness*6))
+
+# ==============================================
+# thickness = 10
+# ==============================================
+#          H         
+#         HHH        
+#        HHHHH       
+#       HHHHHHH      
+#      HHHHHHHHH     
+#     HHHHHHHHHHH    
+#    HHHHHHHHHHHHH   
+#   HHHHHHHHHHHHHHH  
+#  HHHHHHHHHHHHHHHHH 
+# HHHHHHHHHHHHHHHHHHH
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH     
+#      HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH     
+#      HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH     
+#      HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH     
+#      HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH     
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#      HHHHHHHHHH                              HHHHHHHHHH                         
+#                                         HHHHHHHHHHHHHHHHHHH 
+#                                          HHHHHHHHHHHHHHHHH  
+#                                           HHHHHHHHHHHHHHH   
+#                                            HHHHHHHHHHHHH    
+#                                             HHHHHHHHHHH     
+#                                              HHHHHHHHH      
+#                                               HHHHHHH       
+#                                                HHHHH        
+#                                                 HHH         
+#                                                  H    
